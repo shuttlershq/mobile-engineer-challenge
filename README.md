@@ -28,6 +28,7 @@ You'll be assessed based on but not limited to the following:
 
 # Bonus points
 - Setting up github actions to run tests, coverage report and build example app
+- Add coverage report badge to tell %coverage
 
 # How do I submit?
 * Create a github repository, implement your solution and send us the link.
