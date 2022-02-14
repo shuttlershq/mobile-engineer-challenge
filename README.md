@@ -29,3 +29,8 @@ You'll be assessed based on but not limited to the following:
 # Bonus points
 - Setting up github actions to run tests, coverage report and build example app
 
+# How do I submit?
+* Create a github repository, implement your solution and send us the link.
+* Create a ReadMe file with `firstname-lastname.md` (where firstname and lastname are your 
+  first and last name respectively) where you add relevant information on how to setup/run/test your submission
+
