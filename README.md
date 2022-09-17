@@ -10,7 +10,6 @@ You are expected to use your Intuition and creativity to fill in the missing bla
 Please take note of the following points:
 
 - Only use Flutter to get it done
-- You have just 2 days to complete the test.
 - UI Frameworks like VelocityX won't be accepted
 - A Mobile Responsive design will be an added advantage
 - Also make sure that your project is on github and accessible to us
