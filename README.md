@@ -2,7 +2,7 @@
 As part of our application process, we'd like to see what you can produce by giving you a take home assessment.
 
 # Test Specification
-You are required to create a flutter package based off this design as seen on this Figma board (https://www.figma.com/file/byfb8g5JpIEfZn7PyV0jTY/Mobile-Engineer-Demo?node-id=0%3A1).
+You are required to create a flutter package based off this design as seen on this Figma board (https://www.figma.com/file/JN7Mr5MqA1LCwQHSYClxe9/Mobile-Engineer-Demo-(Copy)?node-id=701%3A625).
 
 # Expectations
 You are expected to use your Intuition and creativity to fill in the missing blanks. We will be testing for Skill, Intuition and Creativity
