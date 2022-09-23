@@ -32,8 +32,23 @@ to `/example` folder.
 const like = 'sample';
 ```
 
-## Additional information
+## How to use 
+Initialize your class 
+```dart
+ final RatingsView rating = RatingsView.instance;
+```
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+then call the rate method with all the requested parameters
+
+```dart
+rating.rate( context, plateNumber: String, driverName: String, vehicleType: String, image: String),
+```
+
+Demo:
+
+https://user-images.githubusercontent.com/58878940/191925559-060827a9-ddf5-4feb-8b0e-f020e7e94ad7.mp4
+
+
+
+
+
