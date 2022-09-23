@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:trip_rating/ratings/app/assets/colors.dart';
-import 'package:trip_rating/ratings/app/assets/image_assets.dart';
-import 'package:trip_rating/ratings/app/assets/strings.dart';
-import 'package:trip_rating/ratings/views/widgets/rating_buttons.dart';
+import 'package:trip_rating/ratings/src/app/assets/colors.dart';
+import 'package:trip_rating/ratings/src/app/assets/image_assets.dart';
+import 'package:trip_rating/ratings/src/app/assets/strings.dart';
+import 'package:trip_rating/ratings/src/views/widgets/rating_buttons.dart';
 
 const TextStyle appTextStyle = TextStyle(
   fontFamily: "heebo",
@@ -59,6 +59,7 @@ List<Map> testData = [
 dynamic showModal(BuildContext ctx, bool statisfied) async {
   var a = await showModalBottomSheet(
     backgroundColor: Colors.transparent,
+    isDismissible: false,
     context: ctx,
     builder: (context) => Container(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),

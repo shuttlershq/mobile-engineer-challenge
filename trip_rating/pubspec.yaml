@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^1.0.3
   flutter_bloc:
+  bloc_test:
 
 
 dev_dependencies:
@@ -27,7 +28,7 @@ flutter:
   uses-material-design: true
   # To add assets to your package, add an assets section, like this:
   assets:
-    - .packages/trip_rating/assets/svgs/
+    - assets/svgs/
 
   #   - images/a_dot_ham.jpeg
   #
@@ -45,10 +46,10 @@ flutter:
   fonts:
     - family: heebo
       fonts:
-        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Black.ttf
-        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Bold.ttf
-        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Medium.ttf
-        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Regular.ttf
+        - asset: assets/fonts/heebo/Heebo-Black.ttf
+        - asset: assets/fonts/heebo/Heebo-Bold.ttf
+        - asset: assets/fonts/heebo/Heebo-Medium.ttf
+        - asset: assets/fonts/heebo/Heebo-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

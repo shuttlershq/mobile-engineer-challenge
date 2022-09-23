@@ -11,7 +11,7 @@ class RatingsCubit extends Cubit<RatingsState> {
     emit(RatingsStateChange(rate: rate, message: _getRatingsMessage(rate)));
   }
 
-  void done(int rate) async {
+  void rateDriver(int rate) async {
     if (rate == 0) {
       return;
     }
@@ -25,7 +25,10 @@ class RatingsCubit extends Cubit<RatingsState> {
     }
   }
 
-  void doneWithReasons() {
+  void doneWithReasons() async {
+    emit(RatingsStateLoading());
+    await Future.delayed(const Duration(microseconds: 500000));
+
     emit(RatingsStateComplete(false));
   }
 
@@ -50,7 +53,7 @@ class RatingsCubit extends Cubit<RatingsState> {
   String _getRatingsMessage(int rate) {
     switch (rate) {
       case 1:
-        return "Very poor";
+        return "Very Poor";
       case 2:
         return "Poor";
       case 3:

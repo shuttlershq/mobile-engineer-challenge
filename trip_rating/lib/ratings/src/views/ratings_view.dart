@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trip_rating/ratings/views/rating_ui.dart';
+import 'package:trip_rating/ratings/src/views/rating_ui.dart';
 
 class RatingsView {
   RatingsView._();

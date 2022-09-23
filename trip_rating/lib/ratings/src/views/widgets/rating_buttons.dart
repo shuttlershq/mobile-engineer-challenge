@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trip_rating/ratings/app/assets/colors.dart';
+import 'package:trip_rating/ratings/src/app/assets/colors.dart';
 
 class RatingsButton extends StatelessWidget {
   const RatingsButton(

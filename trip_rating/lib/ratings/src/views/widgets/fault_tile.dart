@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:trip_rating/ratings/app/assets/colors.dart';
-import 'package:trip_rating/ratings/app/assets/constants.dart';
-import 'package:trip_rating/ratings/app/assets/strings.dart';
+import 'package:trip_rating/ratings/src/app/assets/colors.dart';
+import 'package:trip_rating/ratings/src/app/assets/constants.dart';
+import 'package:trip_rating/ratings/src/app/assets/strings.dart';
 
 class FaultTile extends StatelessWidget {
   const FaultTile(

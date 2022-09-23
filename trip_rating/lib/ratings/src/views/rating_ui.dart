@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:trip_rating/ratings/app/assets/colors.dart';
-import 'package:trip_rating/ratings/app/assets/constants.dart';
-import 'package:trip_rating/ratings/app/assets/image_assets.dart';
-import 'package:trip_rating/ratings/app/assets/strings.dart';
-import 'package:trip_rating/ratings/views/ratings_cubit/ratings_cubit.dart';
-import 'package:trip_rating/ratings/views/widgets/fault_tile.dart';
-import 'package:trip_rating/ratings/views/widgets/rating_buttons.dart';
+import 'package:trip_rating/ratings/src/app/assets/colors.dart';
+import 'package:trip_rating/ratings/src/app/assets/constants.dart';
+import 'package:trip_rating/ratings/src/app/assets/image_assets.dart';
+import 'package:trip_rating/ratings/src/app/assets/strings.dart';
+import 'package:trip_rating/ratings/src/views/ratings_cubit/ratings_cubit.dart';
+import 'package:trip_rating/ratings/src/views/widgets/fault_tile.dart';
+import 'package:trip_rating/ratings/src/views/widgets/rating_buttons.dart';
 
 class RatingsViewUi extends StatelessWidget {
   const RatingsViewUi(
@@ -66,7 +66,6 @@ class _RatingsViewUi extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: RatingColors.whiteColor,
-      // resizeToAvoidBottomInset: true,
       body: SafeArea(
         bottom: false,
         child: SingleChildScrollView(
@@ -443,7 +442,9 @@ class _RatingsViewUi extends StatelessWidget {
 
                               return clickWidget(
                                 onTap: () => _pageController.page == 0
-                                    ? context.read<RatingsCubit>().done(_star)
+                                    ? context
+                                        .read<RatingsCubit>()
+                                        .rateDriver(_star)
                                     : context
                                         .read<RatingsCubit>()
                                         .doneWithReasons(),
