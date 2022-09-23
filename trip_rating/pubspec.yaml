@@ -27,7 +27,7 @@ flutter:
   uses-material-design: true
   # To add assets to your package, add an assets section, like this:
   assets:
-    - assets/svgs/
+    - .packages/trip_rating/assets/svgs/
 
   #   - images/a_dot_ham.jpeg
   #
@@ -45,10 +45,10 @@ flutter:
   fonts:
     - family: heebo
       fonts:
-        - asset: assets/fonts/heebo/Heebo-Black.ttf
-        - asset: assets/fonts/heebo/Heebo-Bold.ttf
-        - asset: assets/fonts/heebo/Heebo-Medium.ttf
-        - asset: assets/fonts/heebo/Heebo-Regular.ttf
+        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Black.ttf
+        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Bold.ttf
+        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Medium.ttf
+        - asset: .packages/trip_rating/assets/fonts/heebo/Heebo-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
