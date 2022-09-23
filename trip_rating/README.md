@@ -44,6 +44,10 @@ then call the rate method with all the requested parameters
 rating.rate( context, plateNumber: String, driverName: String, vehicleType: String, image: String),
 ```
 
+Demo:
+
+https://user-images.githubusercontent.com/58878940/191925559-060827a9-ddf5-4feb-8b0e-f020e7e94ad7.mp4
+
 
 
 
