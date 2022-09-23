@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:trip_rating/trip_rating.dart';
+import 'package:trip_rating/calculator/calculate.dart';
 
 void main() {
   test('adds one to input values', () {

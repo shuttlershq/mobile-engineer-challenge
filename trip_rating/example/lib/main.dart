@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trip_rating/ratings/views/ratings_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,6 +51,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
+  final RatingsView rating = RatingsView.instance;
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
@@ -106,7 +108,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () => rating.rate(
+          context,
+        ),
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
